@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDF Send — Share Over Wi-Fi</title>
+<meta name="description" content="Send PDFs from your phone to your PC over local Wi-Fi. No cables, no cloud, no accounts.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path d='M256 34 L500 278 L392 278 L256 142 L120 278 L12 278 Z' fill='%23E01E37'/></svg>">
+<style>
+  :root{
+    --brand:#E01E37; --deep:#A80C30; --light:#FF5D62;
+    --ink:#1E1416; --ink2:#4A3A3E; --muted:#7A6A6E;
+    --bg:#FFFBFB; --surface:#FFFFFF; --line:#F3E4E7; --soft:#FFF4F5;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#F7EDEE; --ink2:#D3C4C7; --muted:#A99A9D;
+      --bg:#141013; --surface:#1E1719; --line:#2E2327; --soft:#241A1D;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+  }
+  .hero{
+    background:linear-gradient(135deg,var(--deep),var(--brand) 55%,var(--light));
+    color:#fff; padding:4rem 1.25rem 3.5rem; text-align:center;
+  }
+  .mark{width:88px;height:88px;margin-bottom:1rem}
+  .hero h1{margin:0; font-size:clamp(2rem,6vw,2.75rem); font-weight:800; letter-spacing:-.02em}
+  .hero p{margin:.5rem 0 0; color:#fff; font-size:1.05rem}
+  .wrap{max-width:44rem; margin:0 auto; padding:0 1.25rem 4rem}
+  h2{font-size:1.25rem; font-weight:700; margin:2.5rem 0 .75rem}
+  p,li{color:var(--ink2)}
+  a{color:var(--brand)}
+  .features{list-style:none; padding:0; margin:1.5rem 0 0; display:grid; gap:.9rem}
+  .features li{
+    background:var(--surface); border:1px solid var(--line); border-radius:14px;
+    padding:1rem 1.15rem;
+  }
+  .features strong{display:block; color:var(--ink); margin-bottom:.15rem}
+  .links{
+    margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--line);
+    display:flex; gap:1.25rem; flex-wrap:wrap;
+  }
+  footer{margin-top:2rem; color:var(--muted); font-size:.85rem}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <svg class="mark" viewBox="0 0 512 512" aria-hidden="true">
+    <path d="M256 34 L500 278 L392 278 L256 142 L120 278 L12 278 Z" fill="#fff"/>
+    <text x="256" y="474" text-anchor="middle" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+          font-weight="800" font-size="196" letter-spacing="6" fill="#fff">PDF</text>
+  </svg>
+  <h1>PDF Send</h1>
+  <p>Share Over Wi-Fi</p>
+</div>
+
+<div class="wrap">
+  <h2>Move PDFs between your phone and your PC</h2>
+  <p>PDF Send puts a small web server on your phone. Your computer opens the address it
+  shows — in any browser — and the file transfers straight across your own Wi-Fi. Nothing
+  is uploaded to a server, because there isn't one.</p>
+
+  <ul class="features">
+    <li><strong>No cables, no cloud, no accounts</strong>
+      Your files go device to device over your own network.</li>
+    <li><strong>Works both ways</strong>
+      Send PDFs to your PC, or send them from your PC back to your phone.</li>
+    <li><strong>Scan or type</strong>
+      Scan the QR code, or type the short address shown on screen.</li>
+    <li><strong>Optional PIN</strong>
+      Require a code before anything can be downloaded or uploaded.</li>
+    <li><strong>Offline hotspot</strong>
+      No shared Wi-Fi? The phone can host its own network for the transfer.</li>
+  </ul>
+
+  <div class="links">
+    <a href="privacy.html">Privacy policy</a>
+    <a href="mailto:alwinpatel3@gmail.com">Contact&nbsp;&amp;&nbsp;support</a>
+  </div>
+
+  <footer>PDF Send · Share Over Wi-Fi</footer>
+</div>
+
+</body>
+</html>
