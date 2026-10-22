@@ -72,7 +72,7 @@
 </header>
 
 <div class="wrap">
-  <p class="updated">Last updated: 11 August 2026</p>
+  <p class="updated">Last updated: 22 October 2026</p>
 
   <div class="lede">
     <p>PDF Send transfers PDF files directly between your own devices over your local
@@ -86,21 +86,23 @@
       your local network. Your files are <strong>never uploaded to us or to any cloud
       service</strong>.</li>
     <li><strong>Receiving works the same way.</strong> A PDF sent from your computer is
-      saved on your phone and copied into your <strong>Downloads</strong> folder so you can
-      find it in your file manager. It does not leave your device.</li>
+      saved on your device. On Android a copy also goes into your <strong>Downloads</strong>
+      folder; on iPhone and iPad it appears in the <strong>Files</strong> app under PDF Send.
+      It does not leave your device.</li>
     <li><strong>PDF tools run entirely on your device.</strong> Compress, merge, split,
       password-protect and preview all process your files locally, on your phone. Nothing
       is sent anywhere, and the results are stored only in the app's own folder.</li>
-    <li><strong>They are excluded from Android backups.</strong> The app opts out of
-      Android's automatic cloud backup, so your PDFs are not copied to Google Drive.</li>
+    <li><strong>Backups.</strong> On Android the app opts out of automatic cloud backup, so
+      your PDFs are not copied to Google Drive. On iPhone and iPad, files kept in the app are
+      part of your own device backup (iCloud Backup or your computer), like any other app's
+      documents; PDF Send itself never uploads them.</li>
     <li><strong>No account, no sign-in.</strong> PDF Send has no accounts and never asks
       for your name, email address or contacts.</li>
   </ul>
 
   <h2>Advertising</h2>
-  <p><strong>Android only.</strong> The <strong>free</strong> version of PDF Send on
-  Android shows ads supplied by <strong>Google AdMob</strong>.
-  <strong>The iOS version shows no ads.</strong></p>
+  <p>The <strong>free</strong> version of PDF Send (Android and iOS) shows ads supplied by
+  <strong>Google AdMob</strong>.</p>
   <ul>
     <li>To serve and measure those ads, AdMob collects your device's
       <strong>advertising ID</strong> together with device information (model, operating
@@ -116,6 +118,11 @@
       before any personalised ads are served. If you decline, PDF Send does not request
       ads. You can change your choice at any time from
       <strong>Settings → Ad privacy options</strong>.</li>
+    <li><strong>On iOS</strong>, the advertising ID is only available if you allow it when
+      iOS asks (“Allow apps to request to track”). If you choose <strong>Ask App Not to
+      Track</strong>, you still see ads, but they are not personalised using that ID. You can
+      change this any time in iOS <strong>Settings → Privacy &amp; Security →
+      Tracking</strong>.</li>
     <li>Ad content is limited to the <strong>“General audiences” (G)</strong> rating.</li>
     <li><strong>Upgrading to Pro removes all ads.</strong></li>
   </ul>
@@ -134,6 +141,23 @@
     <li><strong>The iOS version includes no analytics</strong> — it is not configured and
       collects nothing of this kind.</li>
   </ul>
+
+  <h2>In-app purchases</h2>
+  <p>PDF Send Pro is a one-time purchase made through <strong>Google Play</strong>
+  (Android) or the <strong>App Store</strong> (iOS). We never see your payment details. To
+  confirm a purchase, restore it on a new device and show the store's price, the app uses
+  <strong>RevenueCat</strong>, a purchase-validation service that processes on our behalf:</p>
+  <ul>
+    <li>a <strong>random, anonymous app user ID</strong> created by the app (not your name,
+      email or store account);</li>
+    <li>your <strong>purchase receipt or token</strong>, the product, its price and
+      currency;</li>
+    <li>basic technical details such as platform, operating system and app version, and the
+      country inferred from the request's IP address.</li>
+  </ul>
+  <p>It is used only to provide Pro, it is not used for advertising or tracking, and
+  <strong>your PDFs are never included</strong>. See
+  <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>.</p>
 
   <h2>Permissions</h2>
   <ul>
@@ -154,9 +178,10 @@
   the displayed address (or that scans the QR code), and <strong>only</strong> while the
   sharing screen is open. Sharing stops when you leave the screen, press Stop, or the
   session expires. You can require a PIN for an extra layer of control.</p>
-  <p>The only data shared with third parties is the advertising and analytics data
-  described in the <strong>Advertising</strong> and <strong>Analytics</strong> sections
-  above, and it applies to the <strong>Android</strong> version only.</p>
+  <p>Beyond that, third parties receive only the advertising data described under
+  <strong>Advertising</strong> (free version, both platforms), the analytics data described
+  under <strong>Analytics</strong> (Android only), and the purchase-validation data described
+  under <strong>In-app purchases</strong> (both platforms).</p>
 
   <h2>Security</h2>
   <p>Transfers happen over your local network using plain HTTP, so use PDF Send on networks
@@ -174,10 +199,13 @@
     <li>Change or withdraw ad consent: <strong>Settings → Ad privacy options</strong>
       (shown where consent applies).</li>
     <li>Remove ads entirely: upgrade to <strong>Pro</strong>.</li>
-    <li>Reset your advertising ID or opt out of ad personalisation: your device's
-      <strong>Settings → Google → Ads</strong>.</li>
-    <li>Delete received files: remove them from the app's list and from your Downloads
-      folder; uninstalling the app removes everything it stored.</li>
+    <li>Reset your advertising ID or opt out of ad personalisation: on Android,
+      <strong>Settings → Google → Ads</strong>; on iPhone and iPad, <strong>Settings →
+      Privacy &amp; Security → Tracking</strong>.</li>
+    <li>Delete received files and tool results: on Android, from your Downloads folder (the
+      app's own copies go with <strong>App info → Storage → Clear storage</strong>); on
+      iPhone and iPad, from the PDF Send folder in the <strong>Files</strong> app.
+      Uninstalling the app removes everything it stored.</li>
   </ul>
 
   <h2>Changes to this policy</h2>
